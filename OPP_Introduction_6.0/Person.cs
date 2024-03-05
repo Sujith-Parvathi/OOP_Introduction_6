@@ -6,6 +6,7 @@ namespace OOP_Introduction
     {
         public string firstName;
         public string lastName;
+        public DateTime dateofbirth;
 
         // class variables as properties
         //public string firstName { get; set; }
@@ -28,17 +29,19 @@ namespace OOP_Introduction
         /// </summary>
         public Person()
         {
-            firstName = "John";
-            lastName = "Doe";
+            ///firstName = "John";
+            ///lastName = "Doe";
         }
 
         /// <summary>
         /// A simple parametrized constructor
         /// </summary>
         /// <param name="lname">last name of the person</param>
-        public Person(string lname)
+        public Person(string firstName , string lastName)
         {
-            lastName = lname;
+           this.firstName = firstName;
+           this.lastName = lastName;
         }
+        
     }
 }

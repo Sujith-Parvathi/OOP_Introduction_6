@@ -19,7 +19,7 @@ namespace OOP_Introduction
 
             // using the constructor
             Person Teacher = new Person();
-            Person Manager = new Person("Jane");
+            Person Manager = new Person("Jane","Doe");
 
             // passing by value
             int testVar1 = 3;
